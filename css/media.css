@@ -1,0 +1,26 @@
+/* Media queries for devices */
+
+@media only screen and (max-width: 850px) {
+	nav h2 {
+		display: none;
+	}
+
+main section div img {
+	width: 100%;
+	height: auto;
+}
+
+.details {
+	float: none;
+	margin: 0 auto;
+}
+
+.copyright {
+	float: none;
+	text-align: center;
+}
+
+	#nav-burger {
+		visibility: visible;
+	}
+}
